@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-10-2026 a las 06:35:19
+-- Tiempo de generación: 28-10-2026 a las 05:08:44
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -74,9 +74,12 @@ INSERT INTO `cursos` (`id`, `titulo`, `descripcion`, `id_institucion`, `duracion
 (45, 'Introducción a la Filosofía', 'Este curso le introducirá en algunas de las principales áreas de investigación de la filosofía contemporánea. En cada módulo, un filósofo diferente le hablará de algunas de las cuestiones y temas más importantes de su área de especialización. Empezaremos tratando de entender qué es la filosofía: cuáles son sus objetivos y métodos característicos, y en qué se diferencia de otras materias A continuación, dedicaremos el resto del curso a obtener una visión general introductoria de varias áreas diferentes de la filosofía.', 34, 20, 'Filosofía', 'https://www.coursera.org/learn/philosophy?irclickid=1KKV3iTYyxyZWLh1vy2hMw73Ukr1iHXX%3AWv0R80&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=1720753&utm_content=b2c&utm_campaignid=cursando.cl&utm_term=14726_CR_1164545_', 1, '6c9cde0b8e0201cce59bb849.webp', 1, 'rechazado', '2026-10-14 14:29:40'),
 (47, 'filosofiA', 'Este curso le introducirá en algunas de las principales áreas de investigación de la filosofía contemporánea. En cada módulo, un filósofo diferente le hablará de algunas de las cuestiones y temas más importantes de su área de especialización.', 34, 20, 'Filosofía', 'https://www.coursera.org/learn/philosophy?irclickid=1KKV3iTYyxyZWLh1vy2hMw73Ukr1iHXX%3AWv0R80&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=1720753&utm_content=b2c&utm_campaignid=cursando.cl&utm_term=14726_CR_1164545_', 1, '75d738a88443c5dcfd856902.jpg', 109, 'rechazado', '2026-10-14 14:46:03'),
 (48, 'UPValenciaX: Células', 'Es un curso que puedes encontrar en el sitio de edX en donde descubrirás los distintos tipos de células y tejidos que forman el cuerpo humano y como estos trabajan de forma coordinada para mantener la vida.', 35, 24, 'Biología', 'https://www.edx.org/learn/cellular-biology/universitat-politecnica-de-valencia-celulas-y-tejidos?index=rv_product_summary&queryId=2dedf9715db73506e214d1bc0910c3f6&position=2&utm_source=affiliate&utm_medium=Cursos+gratis+UNAM&utm_campaign=Online+Tracking+L', 0, 'acc156c7290cdd04e24620ff.jpg', NULL, 'rechazado', '2026-10-14 15:07:31'),
-(49, 'filosofia', 'un curso de filosofia', 34, 20, 'Filosofía', 'https://www.coursera.org/learn/philosophy?irclickid=1KKV3iTYyxyZWLh1vy2hMw73Ukr1iHXX%3AWv0R80&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=1720753&utm_content=b2c&utm_campaignid=cursando.cl&utm_term=14726_CR_1164545_', 1, 'eb092ff1bfe3fdf953458390.jpg', 110, 'aprobado', '2026-10-14 16:16:31'),
-(50, 'filosofia', 'el mejor curso', 34, 20, 'Filosofía', 'https://www.coursera.org/learn/philosophy?irclickid=1KKV3iTYyxyZWLh1vy2hMw73Ukr1iHXX%3AWv0R80&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=1720753&utm_content=b2c&utm_campaignid=cursando.cl&utm_term=14726_CR_1164545_', 1, '7c5dc7e9b31fd937091eb32c.jpg', 111, 'aprobado', '2026-10-20 20:32:52'),
-(51, 'filosofia', 'el mejor curso', 34, 20, 'Filosofía', 'https://www.coursera.org/learn/philosophy?irclickid=1KKV3iTYyxyZWLh1vy2hMw73Ukr1iHXX%3AWv0R80&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=1720753&utm_content=b2c&utm_campaignid=cursando.cl&utm_term=14726_CR_1164545_', 1, '22d8f11869dfdac2e072d100.jpg', 112, 'rechazado', '2026-10-20 20:36:14');
+(50, 'filosofia', '¡Bienvenido a un viaje de reflexión y descubrimiento! Este curso es una invitación a explorar las grandes preguntas que nos definen como seres humanos. A través de la filosofía, la ciencia y las ideas que han dado forma a nuestra historia, descubrirás nuevas perspectivas sobre la existencia, la sociedad y nuestra relación con el mundo.Aquí, más que buscar respuestas definitivas, aprenderás a cuestionar, analizar y conectar ideas que te permitirán entender mejor quién eres y cuál es tu lugar en el universo. Este es un espacio para desafiar tus propias creencias, expandir tu pensamiento y encontrar nuevas formas de mirar el mundo y a ti mismo', 34, 20, 'Filosofía', 'https://www.coursera.org/learn/philosophy?irclickid=1KKV3iTYyxyZWLh1vy2hMw73Ukr1iHXX%3AWv0R80&irgwc=1&afsrc=1&utm_medium=partners&utm_source=impact&utm_campaign=1720753&utm_content=b2c&utm_campaignid=cursando.cl&utm_term=14726_CR_1164545_', 1, '7c5dc7e9b31fd937091eb32c.jpg', 111, 'aprobado', '2026-10-20 20:32:52'),
+(52, 'Certificación en bases de datos relacionales', 'Este curso te enseña los fundamentos de las bases de datos relacionales', 36, 22, 'Software', 'https://www.freecodecamp.org/espanol/learn/relational-databases-v9/', 1, '9174683b6133b125da837ddd.jpg', 3, 'aprobado', '2026-10-27 22:43:59'),
+(53, 'Diseño Web', 'Este curso enseña los fundamentos de HTML y CSS, incluyendo diseño moderno, diseño adaptable, accesibilidad y desarrollo web adaptable. Construirás proyectos prácticos y adquirirás las habilidades para crear páginas web profesionales y fáciles de usar.', 36, 30, 'Software', 'https://www.freecodecamp.org/espanol/learn/responsive-web-design-v9/#review-html', 1, '56a9511187868ac40d2227c3.jpg', 3, 'aprobado', '2026-10-27 22:45:43'),
+(54, 'JavaScript', 'Este curso te enseña conceptos básicos de programación en JavaScript como trabajar con variables, funciones, objetos, arreglos y control de flujo. También aprenderás a manipular el DOM, manejar eventos y aplicar técnicas como programación asíncrona, programación y buenas prácticas de accesibilidad.', 36, 24, 'Software', 'https://www.freecodecamp.org/espanol/learn/javascript-v9/', 1, '844584b50fbdea855b750c30.jpg', 3, 'aprobado', '2026-10-27 22:48:26'),
+(55, 'Diseño Grafico', 'En este curso de diseño gráfico aprenderás a crear composiciones visuales y comunicar ideas en proyectos creativos, de la mano de Nicolás Montañez, diseñador gráfico e ilustrador especializado en e-learning e interfaces digitales, responsable del diseño de producto y contenido visual de Edutin Academy. Al finalizar, serás capaz de desarrollar piezas gráficas aplicando principios de diseño, tipografía, color y composición, y tendrás tu propio portafolio gráfico como carta de presentación.', 32, 10, 'Diseño Gráfico', 'https://edutin.com/curso-de-diseno-grafico', 0, 'e6489546b66714e5a82ac8d6.jpg', 3, 'aprobado', '2026-10-27 22:56:34'),
+(56, 'Matemática Preuniversitaria', 'Habilidades matemáticas necesarias para situaciones cotidianas que requieren comprensión y aplicación de conceptos matemáticos básicos y avanzados.', 37, 20, 'Matemáticas', 'https://www.coursera.org/learn/matematica-preuniversitaria?action=enroll', 0, 'cd7db3a4a1905a78a6d5a2f2.jpg', 3, 'aprobado', '2026-10-27 23:07:22');
 
 -- --------------------------------------------------------
 
@@ -124,7 +127,9 @@ INSERT INTO `instituciones` (`id`, `nombre`, `sitio_web`) VALUES
 (32, 'Edutin Academy', NULL),
 (33, 'Training Facility UK', NULL),
 (34, 'THE UNIVERSITY of EDINBURGH', NULL),
-(35, 'Universitat Politècnica de València', NULL);
+(35, 'Universitat Politècnica de València', NULL),
+(36, 'freecodecamp', NULL),
+(37, 'UP universidad de Palermo', NULL);
 
 -- --------------------------------------------------------
 
@@ -190,13 +195,13 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `cursos`
 --
 ALTER TABLE `cursos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
 
 --
 -- AUTO_INCREMENT de la tabla `instituciones`
 --
 ALTER TABLE `instituciones`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
